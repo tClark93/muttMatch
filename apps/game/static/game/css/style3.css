@@ -1,0 +1,44 @@
+.wrapper{
+    background-color: #1A1A1A;
+    background-size: cover;
+    height: 100vh;
+}
+
+.content{
+    flex-direction: column;
+    width: 100%;
+}
+
+.navbar{
+    border: none;
+    background-color: #1A1A1A;
+    width:100%
+}
+ 
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.sub{
+    justify-content: center;
+}
+
+.image img{
+    height:300px;
+    width: auto;
+}
+.text{
+    color: #7B7B7B;
+}
+
+.text h3{
+    color: whitesmoke;
+    margin-top:0px;
+    text-align: center;
+    font-size: 28pt;
+}
+
+.text p{
+    margin:20px;
+}

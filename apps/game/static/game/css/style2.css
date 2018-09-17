@@ -1,0 +1,39 @@
+.wrapper{
+    background-color: #1A1A1A;
+    background-size: cover;
+    height: 100vh;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+}
+
+.navbar{
+    border: none;
+    background-color: #1A1A1A;
+    width:100%
+}
+
+.image{
+    flex: 2;
+    background: url('../images/about2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text{
+    flex:1;
+    height: 80vh;
+    color: #7B7B7B;
+}
+
+.text h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28pt;
+}
+
+.text p{
+    margin:20px;
+}

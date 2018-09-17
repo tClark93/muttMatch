@@ -1,0 +1,16 @@
+.home{
+    
+}
+
+.form-control{
+    width: 35%;
+}
+.form textarea{
+    width: 35%;
+    border: rgb(211, 211, 211) 1px solid;
+    border-radius: 5px;
+    height: 80px;
+}
+.inmates h1{
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.flex h1{
+    text-align: center;
+}
+
+.flex .input{
+    width:50%;
+    margin-left:25%;
+}
+
+.flex button{
+    margin-left:25%;
+}
+
+.caption{
+    text-align: left;
+    color: black;
+}

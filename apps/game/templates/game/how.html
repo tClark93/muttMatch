@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    {%load static%}
+    <link rel="stylesheet" href="{% static 'game/css/style3.css' %}">
+</head>
+<body>
+    <div class='wrapper container-fluid'>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                      <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">Mutt Match</a>
+                </div>
+                  
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/about">About<span class="sr-only">(current)</span></a></li>
+                        <li><a href="/how_it_works">How it Works</a></li>
+                        <li><a href="/partner">Become a Partner</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a id='play' href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Play<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/login">Log In</a></li>
+                                <li><a href="/register">Register</a></li>
+                                <li><a href="/shelter">Shelter Log In</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class='content container'>
+            <div class='text'>
+                <h3>How Title</h3>
+                <p>Mutt Match is just like a dating app - except for the awkward conversation, exit strategies, and possibility of getting murdered.  Oh yeah, and your match is your best friend for life.</p>
+                <p>To match with an animal, simply hit like.  If his description doesn't fit your lifestyle, you can hit pass.  After liking, you can schedule a playdate right away, or have the option to look through more animals and schedule one later in your session.  We email the shelter to let them know who you're seeing and what time you'll arrive!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate officiis incidunt commodi deleniti nihil, reprehenderit a. Ea repellat quibusdam, fuga vitae provident nulla, iure natus sit veniam vero aliquid non reprehenderit explicabo libero quidem nihil cum incidunt ullam consectetur mollitia saepe id omnis dicta consequuntur? Dolorem saepe harum dolore ad voluptatum ullam, maiores nostrum alias.</p>
+            </div>
+            <div class='image'>
+                <div class='sub'>
+                    <img class='img-fluid' src='../../static/game/images/how.jpg'>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
